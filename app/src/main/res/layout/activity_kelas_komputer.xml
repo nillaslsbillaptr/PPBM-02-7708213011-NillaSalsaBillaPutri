@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/K_img_1"
+        android:layout_width="214dp"
+        android:layout_height="255dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="213dp"
+        android:layout_marginTop="476dp"
+        android:src="@drawable/gambar2" />
+
+    <ImageView
+        android:id="@+id/K_img_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/K_back"
+        />
+
+    <TextView
+        android:id="@+id/K_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/K_img_3"
+        android:layout_marginTop="-91dp"
+        android:text="Kelas Komputer"
+        android:layout_centerHorizontal="true"
+        android:textColor="#2A566A"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/K_text3"
+        android:layout_centerHorizontal="true"
+        android:text="Semangat"
+        android:textSize="15sp"
+        android:textColor="#2A566A"
+        android:id="@+id/K_text4"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:layout_marginTop="10dp"
+        android:text="Kelas komputer akan berfokus untuk mengembangi skil komputasi seperti program, desain dan lain-lain"
+        android:textColor="@color/white"
+        android:layout_below="@id/K_text4"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:width="350dp"
+        android:textSize="20sp"
+        android:id="@+id/K_btnKom" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Layanan"
+        android:textColor="@color/black"
+        android:layout_below="@id/K_btnKom"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:width="250dp"
+        android:textSize="20sp"
+        android:id="@+id/K_btnlyn" />
+
+
+</RelativeLayout>

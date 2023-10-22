@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/Dev_back"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Dev_text1"
+        android:gravity="center"
+        android:layout_margin="25dp"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:text="DEVELOPER"
+        android:fontFamily="sans-serif-light"/>
+
+    <ImageView
+        android:id="@+id/Dev_aku"
+        android:layout_width="152dp"
+        android:layout_height="218dp"
+        android:layout_below="@+id/Dev_text1"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="center"
+        android:src="@drawable/aku" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Nilla Salsa Billa Putri"
+        android:textColor="@color/black"
+        android:layout_below="@id/Dev_aku"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:width="350dp"
+        android:textSize="25sp"
+        android:id="@+id/Dev_btnaku" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="nillasalsabilla121@gmail.com"
+        android:textColor="@color/black"
+        android:layout_below="@id/Dev_btnaku"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/button_shape"
+        android:width="250dp"
+        android:textSize="14sp"
+        android:id="@+id/Dev_btnaku2" />
+
+    <ImageView
+        android:id="@+id/Dev_qraku"
+        android:layout_width="165dp"
+        android:layout_height="191dp"
+        android:layout_below="@+id/Dev_btnaku2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/qraku" />
+
+    <Button
+        android:id="@+id/Dev_btnrating"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/Dev_qraku"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:width="150dp"
+        android:background="@drawable/button_shape"
+        android:text="Beri Penilaian"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>

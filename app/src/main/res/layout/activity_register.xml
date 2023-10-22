@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/R_img_1"
+        android:layout_width="214dp"
+        android:layout_height="255dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="213dp"
+        android:layout_marginTop="476dp"
+        android:src="@drawable/gambar2" />
+
+    <ImageView
+        android:id="@+id/R_img_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/R_back"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/R_back"
+        android:layout_centerHorizontal="true"
+        android:text="Daftar pengguna"
+        android:textSize="30sp"
+        android:textColor="#2A566A"
+        android:id="@+id/R_text3"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/R_text3"
+        android:layout_centerHorizontal="true"
+        android:text="Masukan data pengguna"
+        android:textSize="15sp"
+        android:textColor="#2A566A"
+        android:id="@+id/R_text4"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/R_text4"
+        android:padding="20dp"
+        android:id="@+id/R_ly_1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Masukan nama anda"
+            android:paddingLeft="15sp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="#53AFD8"
+            android:id="@+id/R_edt_nama"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Masukan Email"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="#53AFD8"
+            android:id="@+id/R_edt_email"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Buat Password"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="#53AFD8"
+            android:id="@+id/R_edt_pass"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Konfirmasi Password"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="#53AFD8"
+            android:id="@+id/R_edt_konfirm"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/R_Radio">
+
+            <RadioButton
+                android:id="@+id/Radbbtn_Laki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laki-Laki" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perempuan" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        android:layout_below="@id/R_ly_1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:width="250dp"
+        android:textSize="20sp"
+        android:id="@+id/R_btnmsk" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/R_btnmsk"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah punya akun?"
+            android:textSize="15sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masuk"
+            android:textSize="15sp"
+            android:textColor="#3F51B5"
+            android:id="@+id/txt_masuk"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
