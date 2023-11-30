@@ -34,6 +34,7 @@ class rating : AppCompatActivity() {
             }
         }
 
+
         Button.setOnClickListener{
             val message =ratingBar.rating.toString()
             Toast.makeText(this@rating,"Rating is: "+message, Toast.LENGTH_SHORT)

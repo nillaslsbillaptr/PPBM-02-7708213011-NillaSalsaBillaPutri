@@ -2,14 +2,13 @@
     <string name="app_name">Aplikasime</string>
 
 
+    <string name="action_setting">Setting</string>
+    <string-array name="Choose">
+        <item>Dashboard</item>
+        <item>Galeri</item>
+        <item>Developer</item>
+        <item>Keleuar</item>
 
-        <string name="action_setting">Setting</string>
-        <string-array name="Choose">
-            <item>Dashboard</item>
-            <item>Galeri</item>
-            <item>Developer</item>
-            <item>Keleuar</item>
-
-        </string-array>
+    </string-array>
 
 </resources>

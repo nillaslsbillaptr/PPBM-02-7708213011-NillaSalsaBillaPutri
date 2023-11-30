@@ -7,8 +7,11 @@ import kotlinx.android.synthetic.main.activity_menu.M_btnBahasa
 import kotlinx.android.synthetic.main.activity_menu.M_btnIlmu
 import kotlinx.android.synthetic.main.activity_menu.M_btnKom
 import kotlinx.android.synthetic.main.activity_menu.M_btnOr
+import kotlinx.android.synthetic.main.activity_menu.M_cerita
 import kotlinx.android.synthetic.main.activity_menu.M_galeri
 import kotlinx.android.synthetic.main.activity_menu.M_img_3
+import kotlinx.android.synthetic.main.activity_menu.M_kontak
+import kotlinx.android.synthetic.main.activity_profilteman.list_teman
 
 class Menu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,6 +24,8 @@ class Menu : AppCompatActivity() {
         btnOrMenuListener()
         btnBahasaMenuListener()
         btnGaleriMenuListener()
+        btnKontakMenuListener()
+        btnCeritaMenuListener()
     }
     private fun btnBackMenuListener(){
         M_img_3.setOnClickListener {
@@ -52,5 +57,14 @@ class Menu : AppCompatActivity() {
             startActivity(Intent(this,Galeri::class.java))
         }
     }
-
+    private fun btnKontakMenuListener(){
+        M_kontak.setOnClickListener {
+            startActivity(Intent(this,Listkontak::class.java))
+        }
+    }
+    private fun btnCeritaMenuListener(){
+        M_cerita.setOnClickListener {
+            startActivity(Intent(this,profilteman::class.java))
+        }
+    }
 }
