@@ -272,15 +272,41 @@
         </androidx.cardview.widget.CardView>
 
         <Button
-            android:layout_width="200dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/G_card5"
             android:width="100dp"
+            android:text="Lihat Galeri Pribadi"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_shape"
+            android:id="@+id/btnGPribadi" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnGPribadi"
+            android:width="100dp"
+            android:text="Lihat kelas"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_shape"
+            android:id="@+id/btnGLainnya"
+            android:layout_marginTop="5dp"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnGLainnya"
+            android:width="100dp"
+            android:layout_marginTop="5dp"
             android:text="Kembali"
             android:textSize="20sp"
             android:layout_centerHorizontal="true"
             android:background="@drawable/button_shape"
             android:id="@+id/btnGBack" />
+
 
     </RelativeLayout>
 
